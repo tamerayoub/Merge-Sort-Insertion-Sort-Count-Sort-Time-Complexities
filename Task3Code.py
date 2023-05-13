@@ -1,6 +1,4 @@
 import time
-# Ichiro Part 1
-
 
 def mergeSort(L, ascending=True):
     outcomelist = []
@@ -48,8 +46,6 @@ i = random.sample(range(1, 100), 10)
 print(i)
 print(mergeSort(i, True))  # sort in ascending order
 
-
-# Karter Part 2
 
 # Takes parameter A, which is a sorted list.
 def InsertionSort(A, sortAscending):
@@ -103,9 +99,6 @@ InsertionSort(input2, False)
 InsertionSort(input3, False)
 print(input1, input2, input3)
 
-
-# Arnavee Part 3
-
 # Defining count_sort and assigning the size and the output of the program
 
 def count_Sort(arr, ascending=True):
@@ -146,7 +139,6 @@ def count_Sort(arr, ascending=True):
         return arr
 
 
-# Tamers Part 5
 List10000asc = [i for i in range(10000)]
 List10000desc = [i for i in range(10000, 0, -1)]
 
